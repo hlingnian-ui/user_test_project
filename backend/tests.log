@@ -209,3 +209,65 @@
 2026-07-14 02:54:14,571 INFO 状态码：200
 2026-07-14 02:54:14,571 INFO 耗时：0.004s
 2026-07-14 02:54:14,571 INFO 响应：{"message":"用户名已存在"}
+2026-07-15 19:36:41,404 INFO POST http://127.0.0.1:8000/users/login
+2026-07-15 19:36:41,405 INFO 请求参数：{'username': 'tom112', 'password': '111222'}
+2026-07-15 19:36:41,621 INFO 状态码：200
+2026-07-15 19:36:41,621 INFO 耗时：0.216s
+2026-07-15 19:36:41,621 INFO 响应：{"access_token":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJ0b20xMTIiLCJleHAiOjE3ODQxMTkwMDF9.zB3x3LihnDVbGhWtgLk3fkMipJut3socy8Zn1vvt-YU","token_type":"bearer"}
+2026-07-15 19:36:41,623 INFO POST http://127.0.0.1:8000/users/login
+2026-07-15 19:36:41,623 INFO 请求参数：{'username': 'abc', 'password': '123456'}
+2026-07-15 19:36:41,802 INFO 状态码：200
+2026-07-15 19:36:41,802 INFO 耗时：0.179s
+2026-07-15 19:36:41,802 INFO 响应：{"access_token":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJhYmMiLCJleHAiOjE3ODQxMTkwMDF9.eIEGl8S1cLD0vXUGKyK3xv0Gi8xOKyBMYcvsQhtMf_c","token_type":"bearer"}
+2026-07-15 19:36:41,804 INFO POST http://127.0.0.1:8000/users/login
+2026-07-15 19:36:41,804 INFO 请求参数：{'username': 'admin', 'password': '111111'}
+2026-07-15 19:36:41,811 INFO 状态码：500
+2026-07-15 19:36:41,812 INFO 耗时：0.007s
+2026-07-15 19:36:41,812 INFO 响应：Internal Server Error
+2026-07-15 19:36:41,814 INFO POST http://127.0.0.1:8000/users/login
+2026-07-15 19:36:41,814 INFO 请求参数：{'username': 'jack', 'password': '123456'}
+2026-07-15 19:36:42,004 INFO 状态码：200
+2026-07-15 19:36:42,004 INFO 耗时：0.189s
+2026-07-15 19:36:42,004 INFO 响应：{"access_token":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJqYWNrIiwiZXhwIjoxNzg0MTE5MDAyfQ.KJaVW-lQKJjvLymN0rTF0L8C8josg6SVwJQWxn3n56Q","token_type":"bearer"}
+2026-07-15 19:36:42,006 INFO POST http://127.0.0.1:8000/users/login
+2026-07-15 19:36:42,006 INFO 请求参数：{'username': 'rose', 'password': '123456'}
+2026-07-15 19:36:42,009 INFO 状态码：200
+2026-07-15 19:36:42,009 INFO 耗时：0.003s
+2026-07-15 19:36:42,009 INFO 响应：{"message":"用户名不存在"}
+2026-07-15 19:36:42,011 INFO POST http://127.0.0.1:8000/users/login
+2026-07-15 19:36:42,011 INFO 请求参数：{'username': 'mike', 'password': '111222'}
+2026-07-15 19:36:42,014 INFO 状态码：200
+2026-07-15 19:36:42,014 INFO 耗时：0.003s
+2026-07-15 19:36:42,014 INFO 响应：{"message":"用户名不存在"}
+2026-07-15 19:36:42,016 INFO POST http://127.0.0.1:8000/users/login
+2026-07-15 19:36:42,016 INFO 请求参数：{'username': 'lily', 'password': 'password123'}
+2026-07-15 19:36:42,019 INFO 状态码：200
+2026-07-15 19:36:42,020 INFO 耗时：0.003s
+2026-07-15 19:36:42,020 INFO 响应：{"message":"用户名不存在"}
+2026-07-15 19:36:42,022 INFO POST http://127.0.0.1:8000/users/login
+2026-07-15 19:36:42,022 INFO 请求参数：{'username': 'tom112', 'password': '111222'}
+2026-07-15 19:36:42,202 INFO 状态码：200
+2026-07-15 19:36:42,203 INFO 耗时：0.18s
+2026-07-15 19:36:42,203 INFO 响应：{"access_token":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJ0b20xMTIiLCJleHAiOjE3ODQxMTkwMDJ9.JRaX6aeIWpUGCfNCSUQ7KgWLPaYMPrtBEzIXFj_yMo0","token_type":"bearer"}
+2026-07-15 19:36:42,203 INFO GET http://127.0.0.1:8000/users/me
+2026-07-15 19:36:42,206 INFO 状态码：200
+2026-07-15 19:36:42,206 INFO 耗时：0.003s
+2026-07-15 19:36:42,206 INFO 响应：{"id":2,"username":"tom112"}
+2026-07-15 19:36:42,208 INFO 开始注册用户
+2026-07-15 19:36:42,208 INFO POST http://127.0.0.1:8000/users/register
+2026-07-15 19:36:42,208 INFO 请求参数：{'username': 'tom112', 'password': '111222'}
+2026-07-15 19:36:42,210 INFO 状态码：200
+2026-07-15 19:36:42,210 INFO 耗时：0.003s
+2026-07-15 19:36:42,210 INFO 响应：{"message":"用户名已存在"}
+2026-07-15 19:36:42,216 INFO 开始注册用户
+2026-07-15 19:36:42,216 INFO POST http://127.0.0.1:8000/users/register
+2026-07-15 19:36:42,216 INFO 请求参数：{'username': 'abc', 'password': '123456'}
+2026-07-15 19:36:42,220 INFO 状态码：200
+2026-07-15 19:36:42,220 INFO 耗时：0.004s
+2026-07-15 19:36:42,220 INFO 响应：{"message":"用户名已存在"}
+2026-07-15 19:36:42,223 INFO 开始注册用户
+2026-07-15 19:36:42,224 INFO POST http://127.0.0.1:8000/users/register
+2026-07-15 19:36:42,224 INFO 请求参数：{'username': 'addin', 'password': '111111'}
+2026-07-15 19:36:42,227 INFO 状态码：200
+2026-07-15 19:36:42,227 INFO 耗时：0.003s
+2026-07-15 19:36:42,227 INFO 响应：{"message":"用户名已存在"}

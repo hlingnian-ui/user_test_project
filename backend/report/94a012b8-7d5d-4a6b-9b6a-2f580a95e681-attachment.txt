@@ -1,5 +1,0 @@
-[32mINFO    [0m user_test:base_api.py:33 POST http://127.0.0.1:8000/users/login
-[32mINFO    [0m user_test:base_api.py:36 请求参数：{'username': 'rose', 'password': '123456'}
-[32mINFO    [0m user_test:base_api.py:48 状态码：200
-[32mINFO    [0m user_test:base_api.py:49 耗时：0.003s
-[32mINFO    [0m user_test:base_api.py:50 响应：{"message":"用户名不存在"}

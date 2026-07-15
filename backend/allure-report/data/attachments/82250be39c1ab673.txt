@@ -1,5 +1,0 @@
-2026-07-15 19:36:41,404 INFO POST http://127.0.0.1:8000/users/login
-2026-07-15 19:36:41,405 INFO 请求参数：{'username': 'tom112', 'password': '111222'}
-2026-07-15 19:36:41,621 INFO 状态码：200
-2026-07-15 19:36:41,621 INFO 耗时：0.216s
-2026-07-15 19:36:41,621 INFO 响应：{"access_token":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJ0b20xMTIiLCJleHAiOjE3ODQxMTkwMDF9.zB3x3LihnDVbGhWtgLk3fkMipJut3socy8Zn1vvt-YU","token_type":"bearer"}

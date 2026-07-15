@@ -1,0 +1,211 @@
+2026-07-14 02:06:57,532 INFO POST http://127.0.0.1:8000/users/login
+2026-07-14 02:06:57,533 INFO 请求参数：{'username': 'tom112', 'password': '111222'}
+2026-07-14 02:06:57,618 INFO POST http://127.0.0.1:8000/users/login
+2026-07-14 02:06:57,618 INFO 请求参数：{'username': 'abc', 'password': '123456'}
+2026-07-14 02:06:57,699 INFO POST http://127.0.0.1:8000/users/login
+2026-07-14 02:06:57,699 INFO 请求参数：{'username': 'admin', 'password': '111111'}
+2026-07-14 02:06:57,764 INFO POST http://127.0.0.1:8000/users/login
+2026-07-14 02:06:57,765 INFO 请求参数：{'username': 'jack', 'password': '123456'}
+2026-07-14 02:06:57,830 INFO POST http://127.0.0.1:8000/users/login
+2026-07-14 02:06:57,830 INFO 请求参数：{'username': 'rose', 'password': '123456'}
+2026-07-14 02:06:57,893 INFO POST http://127.0.0.1:8000/users/login
+2026-07-14 02:06:57,893 INFO 请求参数：{'username': 'mike', 'password': '111222'}
+2026-07-14 02:06:57,967 INFO POST http://127.0.0.1:8000/users/login
+2026-07-14 02:06:57,967 INFO 请求参数：{'username': 'lily', 'password': 'password123'}
+2026-07-14 02:06:58,029 INFO POST http://127.0.0.1:8000/users/login
+2026-07-14 02:06:58,030 INFO 请求参数：{'username': 'tom112', 'password': '111222'}
+2026-07-14 02:06:58,103 INFO 开始注册用户
+2026-07-14 02:06:58,103 INFO POST http://127.0.0.1:8000/users/register
+2026-07-14 02:06:58,103 INFO 请求参数：{'username': 'tom112', 'password': '111222'}
+2026-07-14 02:06:58,170 INFO 开始注册用户
+2026-07-14 02:06:58,170 INFO POST http://127.0.0.1:8000/users/register
+2026-07-14 02:06:58,170 INFO 请求参数：{'username': 'abc', 'password': '123456'}
+2026-07-14 02:06:58,237 INFO 开始注册用户
+2026-07-14 02:06:58,237 INFO POST http://127.0.0.1:8000/users/register
+2026-07-14 02:06:58,237 INFO 请求参数：{'username': 'abddn', 'password': '111111'}
+2026-07-14 02:12:22,076 INFO POST http://127.0.0.1:8000/users/login
+2026-07-14 02:12:22,076 INFO 请求参数：{'username': 'tom112', 'password': '111222'}
+2026-07-14 02:12:22,291 INFO 状态码：200
+2026-07-14 02:12:22,291 INFO 耗时：0.215s
+2026-07-14 02:12:22,291 INFO 响应：{"access_token":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJ0b20xMTIiLCJleHAiOjE3ODM5Njk5NDJ9.vfXNVrcumV7Q0SVj1LbCFCGWyy6_QukDzwv6ZAtPNeQ","token_type":"bearer"}
+2026-07-14 02:12:22,294 INFO POST http://127.0.0.1:8000/users/login
+2026-07-14 02:12:22,294 INFO 请求参数：{'username': 'abc', 'password': '123456'}
+2026-07-14 02:12:22,476 INFO 状态码：200
+2026-07-14 02:12:22,476 INFO 耗时：0.182s
+2026-07-14 02:12:22,476 INFO 响应：{"access_token":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJhYmMiLCJleHAiOjE3ODM5Njk5NDJ9.ZOpjJgdVcMkChn_qFMgQDrS5NeJoYHfzSy_xPjmLAD4","token_type":"bearer"}
+2026-07-14 02:12:22,478 INFO POST http://127.0.0.1:8000/users/login
+2026-07-14 02:12:22,478 INFO 请求参数：{'username': 'admin', 'password': '111111'}
+2026-07-14 02:12:22,481 INFO 状态码：500
+2026-07-14 02:12:22,481 INFO 耗时：0.003s
+2026-07-14 02:12:22,481 INFO 响应：Internal Server Error
+2026-07-14 02:12:22,483 INFO POST http://127.0.0.1:8000/users/login
+2026-07-14 02:12:22,483 INFO 请求参数：{'username': 'jack', 'password': '123456'}
+2026-07-14 02:12:22,673 INFO 状态码：200
+2026-07-14 02:12:22,673 INFO 耗时：0.189s
+2026-07-14 02:12:22,673 INFO 响应：{"access_token":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJqYWNrIiwiZXhwIjoxNzgzOTY5OTQyfQ.ZxrqaWRNFMh7B0N482rEiE3TecFLBFQWKIUnuB_PIIU","token_type":"bearer"}
+2026-07-14 02:12:22,675 INFO POST http://127.0.0.1:8000/users/login
+2026-07-14 02:12:22,675 INFO 请求参数：{'username': 'rose', 'password': '123456'}
+2026-07-14 02:12:22,678 INFO 状态码：200
+2026-07-14 02:12:22,678 INFO 耗时：0.003s
+2026-07-14 02:12:22,678 INFO 响应：{"message":"用户名不存在"}
+2026-07-14 02:12:22,680 INFO POST http://127.0.0.1:8000/users/login
+2026-07-14 02:12:22,680 INFO 请求参数：{'username': 'mike', 'password': '111222'}
+2026-07-14 02:12:22,683 INFO 状态码：200
+2026-07-14 02:12:22,683 INFO 耗时：0.003s
+2026-07-14 02:12:22,683 INFO 响应：{"message":"用户名不存在"}
+2026-07-14 02:12:22,685 INFO POST http://127.0.0.1:8000/users/login
+2026-07-14 02:12:22,685 INFO 请求参数：{'username': 'lily', 'password': 'password123'}
+2026-07-14 02:12:22,689 INFO 状态码：200
+2026-07-14 02:12:22,689 INFO 耗时：0.004s
+2026-07-14 02:12:22,689 INFO 响应：{"message":"用户名不存在"}
+2026-07-14 02:12:22,691 INFO POST http://127.0.0.1:8000/users/login
+2026-07-14 02:12:22,691 INFO 请求参数：{'username': 'tom112', 'password': '111222'}
+2026-07-14 02:12:22,872 INFO 状态码：200
+2026-07-14 02:12:22,873 INFO 耗时：0.181s
+2026-07-14 02:12:22,873 INFO 响应：{"access_token":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJ0b20xMTIiLCJleHAiOjE3ODM5Njk5NDJ9.vfXNVrcumV7Q0SVj1LbCFCGWyy6_QukDzwv6ZAtPNeQ","token_type":"bearer"}
+2026-07-14 02:12:22,873 INFO GET http://127.0.0.1:8000/users/me
+2026-07-14 02:12:22,876 INFO 状态码：200
+2026-07-14 02:12:22,876 INFO 耗时：0.003s
+2026-07-14 02:12:22,876 INFO 响应：{"id":2,"username":"tom112"}
+2026-07-14 02:12:22,877 INFO 开始注册用户
+2026-07-14 02:12:22,878 INFO POST http://127.0.0.1:8000/users/register
+2026-07-14 02:12:22,878 INFO 请求参数：{'username': 'tom112', 'password': '111222'}
+2026-07-14 02:12:22,880 INFO 状态码：200
+2026-07-14 02:12:22,880 INFO 耗时：0.003s
+2026-07-14 02:12:22,880 INFO 响应：{"message":"用户名已存在"}
+2026-07-14 02:12:22,883 INFO 开始注册用户
+2026-07-14 02:12:22,883 INFO POST http://127.0.0.1:8000/users/register
+2026-07-14 02:12:22,883 INFO 请求参数：{'username': 'abc', 'password': '123456'}
+2026-07-14 02:12:22,886 INFO 状态码：200
+2026-07-14 02:12:22,886 INFO 耗时：0.003s
+2026-07-14 02:12:22,886 INFO 响应：{"message":"用户名已存在"}
+2026-07-14 02:12:22,889 INFO 开始注册用户
+2026-07-14 02:12:22,889 INFO POST http://127.0.0.1:8000/users/register
+2026-07-14 02:12:22,889 INFO 请求参数：{'username': 'abddn', 'password': '111111'}
+2026-07-14 02:12:22,892 INFO 状态码：200
+2026-07-14 02:12:22,892 INFO 耗时：0.003s
+2026-07-14 02:12:22,892 INFO 响应：{"message":"用户名已存在"}
+2026-07-14 02:32:00,658 INFO POST http://127.0.0.1:8000/users/login
+2026-07-14 02:32:00,658 INFO 请求参数：{'username': 'tom112', 'password': '111222'}
+2026-07-14 02:32:00,849 INFO 状态码：200
+2026-07-14 02:32:00,849 INFO 耗时：0.191s
+2026-07-14 02:32:00,849 INFO 响应：{"access_token":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJ0b20xMTIiLCJleHAiOjE3ODM5NzExMjB9.MSpEGEEfALu9XAipVBXbLdF9vE_1xjU0eI_AcaKrWAI","token_type":"bearer"}
+2026-07-14 02:32:00,851 INFO POST http://127.0.0.1:8000/users/login
+2026-07-14 02:32:00,851 INFO 请求参数：{'username': 'abc', 'password': '123456'}
+2026-07-14 02:32:01,034 INFO 状态码：200
+2026-07-14 02:32:01,034 INFO 耗时：0.182s
+2026-07-14 02:32:01,034 INFO 响应：{"access_token":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJhYmMiLCJleHAiOjE3ODM5NzExMjF9.3RMdKz662CHABrUtweg4yVS0RUaVMz0IbrTc4wrSUNg","token_type":"bearer"}
+2026-07-14 02:32:01,036 INFO POST http://127.0.0.1:8000/users/login
+2026-07-14 02:32:01,036 INFO 请求参数：{'username': 'admin', 'password': '111111'}
+2026-07-14 02:32:01,040 INFO 状态码：500
+2026-07-14 02:32:01,040 INFO 耗时：0.003s
+2026-07-14 02:32:01,040 INFO 响应：Internal Server Error
+2026-07-14 02:32:01,042 INFO POST http://127.0.0.1:8000/users/login
+2026-07-14 02:32:01,042 INFO 请求参数：{'username': 'jack', 'password': '123456'}
+2026-07-14 02:32:01,223 INFO 状态码：200
+2026-07-14 02:32:01,223 INFO 耗时：0.181s
+2026-07-14 02:32:01,223 INFO 响应：{"access_token":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJqYWNrIiwiZXhwIjoxNzgzOTcxMTIxfQ.JzlpYBgor817Ozc5jiYdN-yB6-dL74MP7y0eeVH61xI","token_type":"bearer"}
+2026-07-14 02:32:01,225 INFO POST http://127.0.0.1:8000/users/login
+2026-07-14 02:32:01,225 INFO 请求参数：{'username': 'rose', 'password': '123456'}
+2026-07-14 02:32:01,228 INFO 状态码：200
+2026-07-14 02:32:01,228 INFO 耗时：0.002s
+2026-07-14 02:32:01,228 INFO 响应：{"message":"用户名不存在"}
+2026-07-14 02:32:01,229 INFO POST http://127.0.0.1:8000/users/login
+2026-07-14 02:32:01,229 INFO 请求参数：{'username': 'mike', 'password': '111222'}
+2026-07-14 02:32:01,232 INFO 状态码：200
+2026-07-14 02:32:01,232 INFO 耗时：0.002s
+2026-07-14 02:32:01,232 INFO 响应：{"message":"用户名不存在"}
+2026-07-14 02:32:01,234 INFO POST http://127.0.0.1:8000/users/login
+2026-07-14 02:32:01,234 INFO 请求参数：{'username': 'lily', 'password': 'password123'}
+2026-07-14 02:32:01,236 INFO 状态码：200
+2026-07-14 02:32:01,237 INFO 耗时：0.002s
+2026-07-14 02:32:01,237 INFO 响应：{"message":"用户名不存在"}
+2026-07-14 02:32:01,239 INFO POST http://127.0.0.1:8000/users/login
+2026-07-14 02:32:01,239 INFO 请求参数：{'username': 'tom112', 'password': '111222'}
+2026-07-14 02:32:01,422 INFO 状态码：200
+2026-07-14 02:32:01,422 INFO 耗时：0.183s
+2026-07-14 02:32:01,422 INFO 响应：{"access_token":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJ0b20xMTIiLCJleHAiOjE3ODM5NzExMjF9.mA3vRUmbmLZBiCq_688IqLqLigf-6gJ8HM8EayaEgQ4","token_type":"bearer"}
+2026-07-14 02:32:01,422 INFO GET http://127.0.0.1:8000/users/me
+2026-07-14 02:32:01,425 INFO 状态码：200
+2026-07-14 02:32:01,425 INFO 耗时：0.002s
+2026-07-14 02:32:01,425 INFO 响应：{"id":2,"username":"tom112"}
+2026-07-14 02:32:01,427 INFO 开始注册用户
+2026-07-14 02:32:01,427 INFO POST http://127.0.0.1:8000/users/register
+2026-07-14 02:32:01,427 INFO 请求参数：{'username': 'tom112', 'password': '111222'}
+2026-07-14 02:32:01,429 INFO 状态码：200
+2026-07-14 02:32:01,429 INFO 耗时：0.002s
+2026-07-14 02:32:01,429 INFO 响应：{"message":"用户名已存在"}
+2026-07-14 02:32:01,432 INFO 开始注册用户
+2026-07-14 02:32:01,432 INFO POST http://127.0.0.1:8000/users/register
+2026-07-14 02:32:01,433 INFO 请求参数：{'username': 'abc', 'password': '123456'}
+2026-07-14 02:32:01,435 INFO 状态码：200
+2026-07-14 02:32:01,435 INFO 耗时：0.003s
+2026-07-14 02:32:01,435 INFO 响应：{"message":"用户名已存在"}
+2026-07-14 02:32:01,438 INFO 开始注册用户
+2026-07-14 02:32:01,438 INFO POST http://127.0.0.1:8000/users/register
+2026-07-14 02:32:01,438 INFO 请求参数：{'username': 'addin', 'password': '111111'}
+2026-07-14 02:32:01,442 INFO 状态码：200
+2026-07-14 02:32:01,442 INFO 耗时：0.003s
+2026-07-14 02:32:01,442 INFO 响应：{"message":"用户名已存在"}
+2026-07-14 02:54:13,791 INFO POST http://127.0.0.1:8000/users/login
+2026-07-14 02:54:13,792 INFO 请求参数：{'username': 'tom112', 'password': '111222'}
+2026-07-14 02:54:13,978 INFO 状态码：200
+2026-07-14 02:54:13,978 INFO 耗时：0.186s
+2026-07-14 02:54:13,978 INFO 响应：{"access_token":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJ0b20xMTIiLCJleHAiOjE3ODM5NzI0NTN9.hUOWo4Mf4BP1NiDofeBfn40Krj9XDzip9QOTmrYruPY","token_type":"bearer"}
+2026-07-14 02:54:13,980 INFO POST http://127.0.0.1:8000/users/login
+2026-07-14 02:54:13,980 INFO 请求参数：{'username': 'abc', 'password': '123456'}
+2026-07-14 02:54:14,161 INFO 状态码：200
+2026-07-14 02:54:14,161 INFO 耗时：0.18s
+2026-07-14 02:54:14,161 INFO 响应：{"access_token":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJhYmMiLCJleHAiOjE3ODM5NzI0NTR9.IlV-1-nbwAS3xx8yPjDEQOojO_WiGes7oxJnf4RN17E","token_type":"bearer"}
+2026-07-14 02:54:14,163 INFO POST http://127.0.0.1:8000/users/login
+2026-07-14 02:54:14,163 INFO 请求参数：{'username': 'admin', 'password': '111111'}
+2026-07-14 02:54:14,166 INFO 状态码：500
+2026-07-14 02:54:14,167 INFO 耗时：0.003s
+2026-07-14 02:54:14,167 INFO 响应：Internal Server Error
+2026-07-14 02:54:14,169 INFO POST http://127.0.0.1:8000/users/login
+2026-07-14 02:54:14,169 INFO 请求参数：{'username': 'jack', 'password': '123456'}
+2026-07-14 02:54:14,349 INFO 状态码：200
+2026-07-14 02:54:14,350 INFO 耗时：0.18s
+2026-07-14 02:54:14,350 INFO 响应：{"access_token":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJqYWNrIiwiZXhwIjoxNzgzOTcyNDU0fQ.nHub8BbZNw4X7RBjTvEJRPxtT5r22KLWB9ucT2frrK8","token_type":"bearer"}
+2026-07-14 02:54:14,352 INFO POST http://127.0.0.1:8000/users/login
+2026-07-14 02:54:14,352 INFO 请求参数：{'username': 'rose', 'password': '123456'}
+2026-07-14 02:54:14,355 INFO 状态码：200
+2026-07-14 02:54:14,355 INFO 耗时：0.003s
+2026-07-14 02:54:14,355 INFO 响应：{"message":"用户名不存在"}
+2026-07-14 02:54:14,357 INFO POST http://127.0.0.1:8000/users/login
+2026-07-14 02:54:14,357 INFO 请求参数：{'username': 'mike', 'password': '111222'}
+2026-07-14 02:54:14,360 INFO 状态码：200
+2026-07-14 02:54:14,360 INFO 耗时：0.003s
+2026-07-14 02:54:14,360 INFO 响应：{"message":"用户名不存在"}
+2026-07-14 02:54:14,362 INFO POST http://127.0.0.1:8000/users/login
+2026-07-14 02:54:14,362 INFO 请求参数：{'username': 'lily', 'password': 'password123'}
+2026-07-14 02:54:14,364 INFO 状态码：200
+2026-07-14 02:54:14,365 INFO 耗时：0.003s
+2026-07-14 02:54:14,365 INFO 响应：{"message":"用户名不存在"}
+2026-07-14 02:54:14,367 INFO POST http://127.0.0.1:8000/users/login
+2026-07-14 02:54:14,368 INFO 请求参数：{'username': 'tom112', 'password': '111222'}
+2026-07-14 02:54:14,551 INFO 状态码：200
+2026-07-14 02:54:14,551 INFO 耗时：0.183s
+2026-07-14 02:54:14,551 INFO 响应：{"access_token":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJ0b20xMTIiLCJleHAiOjE3ODM5NzI0NTR9.GwOy_LJ3lyIjJnIoEaB2wIPF9Y__K9yvyMhbrRUwxoE","token_type":"bearer"}
+2026-07-14 02:54:14,551 INFO GET http://127.0.0.1:8000/users/me
+2026-07-14 02:54:14,554 INFO 状态码：200
+2026-07-14 02:54:14,554 INFO 耗时：0.003s
+2026-07-14 02:54:14,554 INFO 响应：{"id":2,"username":"tom112"}
+2026-07-14 02:54:14,556 INFO 开始注册用户
+2026-07-14 02:54:14,556 INFO POST http://127.0.0.1:8000/users/register
+2026-07-14 02:54:14,556 INFO 请求参数：{'username': 'tom112', 'password': '111222'}
+2026-07-14 02:54:14,558 INFO 状态码：200
+2026-07-14 02:54:14,559 INFO 耗时：0.002s
+2026-07-14 02:54:14,559 INFO 响应：{"message":"用户名已存在"}
+2026-07-14 02:54:14,561 INFO 开始注册用户
+2026-07-14 02:54:14,561 INFO POST http://127.0.0.1:8000/users/register
+2026-07-14 02:54:14,561 INFO 请求参数：{'username': 'abc', 'password': '123456'}
+2026-07-14 02:54:14,564 INFO 状态码：200
+2026-07-14 02:54:14,564 INFO 耗时：0.002s
+2026-07-14 02:54:14,564 INFO 响应：{"message":"用户名已存在"}
+2026-07-14 02:54:14,567 INFO 开始注册用户
+2026-07-14 02:54:14,567 INFO POST http://127.0.0.1:8000/users/register
+2026-07-14 02:54:14,567 INFO 请求参数：{'username': 'addin', 'password': '111111'}
+2026-07-14 02:54:14,571 INFO 状态码：200
+2026-07-14 02:54:14,571 INFO 耗时：0.004s
+2026-07-14 02:54:14,571 INFO 响应：{"message":"用户名已存在"}

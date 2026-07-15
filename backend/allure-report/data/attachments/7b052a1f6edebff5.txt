@@ -1,0 +1,6 @@
+[32mINFO    [0m user_test:test_register.py:17 开始注册用户
+[32mINFO    [0m user_test:base_api.py:33 POST http://127.0.0.1:8000/users/register
+[32mINFO    [0m user_test:base_api.py:36 请求参数：{'username': 'tom112', 'password': '111222'}
+[32mINFO    [0m user_test:base_api.py:48 状态码：200
+[32mINFO    [0m user_test:base_api.py:49 耗时：0.003s
+[32mINFO    [0m user_test:base_api.py:50 响应：{"message":"用户名已存在"}

@@ -1,0 +1,5 @@
+2026-07-14 02:54:13,980 INFO POST http://127.0.0.1:8000/users/login
+2026-07-14 02:54:13,980 INFO 请求参数：{'username': 'abc', 'password': '123456'}
+2026-07-14 02:54:14,161 INFO 状态码：200
+2026-07-14 02:54:14,161 INFO 耗时：0.18s
+2026-07-14 02:54:14,161 INFO 响应：{"access_token":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJhYmMiLCJleHAiOjE3ODM5NzI0NTR9.IlV-1-nbwAS3xx8yPjDEQOojO_WiGes7oxJnf4RN17E","token_type":"bearer"}

@@ -1,5 +1,0 @@
-[32mINFO    [0m user_test:base_api.py:33 POST http://127.0.0.1:8000/users/login
-[32mINFO    [0m user_test:base_api.py:36 请求参数：{'username': 'jack', 'password': '123456'}
-[32mINFO    [0m user_test:base_api.py:48 状态码：200
-[32mINFO    [0m user_test:base_api.py:49 耗时：0.189s
-[32mINFO    [0m user_test:base_api.py:50 响应：{"access_token":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJqYWNrIiwiZXhwIjoxNzgzOTY5OTQyfQ.ZxrqaWRNFMh7B0N482rEiE3TecFLBFQWKIUnuB_PIIU","token_type":"bearer"}

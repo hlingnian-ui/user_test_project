@@ -62,11 +62,29 @@ jobs:
           python -m pip install --upgrade pip
           pip install -r requirements.txt
 
+      - name: Install Allure
+        run: |
+          sudo apt-get update
+          sudo apt-get install -y unzip
+          wget https://github.com/allure-framework/allure2/releases/download/2.35.0/allure-2.35.0.zip
+          unzip allure-2.35.0.zip
+          sudo mv allure-2.35.0 /opt/allure
+          sudo ln -s /opt/allure/bin/allure /usr/bin/allure
 
       - name: Start FastAPI
         run: |
           nohup uvicorn app.main:app --host 0.0.0.0 --port 8000 &
 
-          
+
       - name: Run Pytest
         run: pytest
+      
+      - name: Generate Allure Report
+        run: |
+          allure generate report --clean -o allure-report
+      
+      - name: Upload Allure Report
+        uses: actions/upload-artifact@v4
+        with:
+          name: allure-report
+          path: backend/allure-report
